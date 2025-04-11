@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-FEIX COMPANY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #003d80;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1588776814546-3c9a9cd2d9f8') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .section {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>G-FEIX COMPANY</h1>
+        <p>Advancing Medical Research with Artificial Intelligence</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Focus</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Revolutionizing Medicine with AI</h1>
+        <p>G-FEIX COMPANY is a medical research company specializing in artificial intelligence in medicine.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About G-FEIX</h2>
+        <p>G-FEIX COMPANY is at the forefront of innovation in medical research. We integrate cutting-edge artificial intelligence to solve complex healthcare challenges, improve diagnostics, and enhance patient outcomes.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Focus</h2>
+        <p>Our research spans across medical data analysis, AI-powered diagnostics, predictive modeling, and personalized medicine. We collaborate with healthcare providers and institutions to develop practical and impactful AI solutions.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: info@gfeix.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Innovation Blvd, Tech City, TX</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 G-FEIX COMPANY. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
